@@ -13,11 +13,11 @@ public static void main(String args[]){
     System.out.println("enter a number to get it squared.");
     input = keys.nextInt();
     
-    y = input* input;
-    x = input;
+    y = input;
+
     for(input = 0; input < 1; input++)
     {
-        System.out.println(x + " | " + y +" | "+ y*y +" | " + y*y*y );
+       System.out.println(y*y + "|" + y*y*y);;
     }
 }}
 
